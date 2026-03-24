@@ -1,0 +1,6 @@
+t = int(input())
+for _ in range(t):
+    ax, ay, bx, by = map(int, input().split())
+    x = 2 * bx - ax
+    y = 2 * by - ay
+    print(x, y)
